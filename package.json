@@ -1,0 +1,39 @@
+{
+  "name": "docker-angular-tutum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dciccale/docker-angular-tutum.git"
+  },
+  "keywords": [
+    "docker",
+    "angular",
+    "tutum"
+  ],
+  "author": "Denis Ciccale (@tdecs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dciccale/docker-angular-tutum/issues"
+  },
+  "homepage": "https://github.com/dciccale/docker-angular-tutum",
+  "dependencies": {
+    "compression": "^1.6.1",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.2",
+    "karma-ng-html2js-preprocessor": "^0.2.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.6"
+  }
+}
